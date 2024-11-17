@@ -108,6 +108,18 @@ hr {
     overflow-wrap: break-word;
 }
 
+.references p {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 1.5%;
+    padding-top: 0;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 1.1em;
+    line-height: 1.5;
+
 .contact-info {
     display: flex; 
     align-items: flex-start;
