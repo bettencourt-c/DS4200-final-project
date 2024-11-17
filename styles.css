@@ -60,6 +60,23 @@ header {
     padding: 0;
 }
 
+.references ol {
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.references li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
 .contact-info {
     display: flex; 
     align-items: flex-start;
