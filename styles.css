@@ -92,21 +92,19 @@ hr {
     overflow-wrap: break-word;
 }
 
-references {
-    width: 80%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    overflow-x: hidden;
-}
 
+.references {
+    width: 100%;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    padding: 10px;
+}
 
 .references ol {
     font-size: 1.1em;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: left;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 .references li {
@@ -115,6 +113,13 @@ references {
     text-align: left;
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+
+.references a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: inline-block;
+    max-width: 100%;
 }
 
 .contact-info {
