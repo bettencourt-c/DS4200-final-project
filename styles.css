@@ -91,6 +91,14 @@ hr {
     overflow-wrap: break-word;
 }
 
+refernces {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+
+
 .references ol {
     font-size: 1.1em;
     margin-top: 10px;
