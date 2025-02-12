@@ -39,7 +39,7 @@ hr {
     padding: 4%;
     background-color: RGB(236,236,236);
     color: RGB(44,45,43);
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .content-container a {
